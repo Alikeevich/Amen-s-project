@@ -56,7 +56,7 @@ const VideoChat = ({ onNextPerson = () => {} }: VideoChatProps) => {
     }
   }, [isMicOn]);
 
-  const partnerVideoUrl = "/public/videoplayback.mp4";
+  const partnerVideoUrl = "/videoplayback.mp4";
 
   return (
     <div className="w-full max-w-[1200px] mx-auto p-4 flex flex-col gap-4">
